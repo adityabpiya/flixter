@@ -12,7 +12,7 @@
 
   <body>
     <div id="flex-content-container">
-      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <nav class="navbar navbar-toggleable-md navbar-inverse bg-faded">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,7 +26,7 @@
           </ul>
           <ul class="navbar-nav">
             <% if user_signed_in? %>
-              <li ckass="nav item">
+              <li class="nav-item">
                 <%= link_to 'My Dashboard', dashboard_path, class: 'nav-link' %>
               </li>
               <li class="nav-item">
